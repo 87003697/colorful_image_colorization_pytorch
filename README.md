@@ -46,6 +46,10 @@ Due to time limit, at this moment the model is under training. According to [ori
     <img src="https://github.com/87003697/colorful_image_colorization_pytorch/blob/main/images/val_loss_epoches.png" width="500"/>
 </figure>
 
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://github.com/87003697/colorful_image_colorization_pytorch/blob/main/images/train_loss_batches.png)  |  ![](https://github.com/87003697/colorful_image_colorization_pytorch/blob/main/images/val_loss_epoches.png)
+
 ### Demo
 Open **demo.ipynb**, choose either to inference with pre-saved model or your trained one.
 Examples
