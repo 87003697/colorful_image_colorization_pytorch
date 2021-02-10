@@ -41,7 +41,10 @@ PS: for other configuration of training, see [argument setup](https://github.com
 ### Performance
 Due to time limit, at this moment the model is under training. According to [original paper](https://arxiv.org/pdf/1603.08511.pdf), the model should be trained for 500k+ iterations, which would spend several days or so. Feedback will be released once the training is finished. But now you can check the loss curves.
 ![train_loss_curve](https://github.com/87003697/colorful_image_colorization_pytorch/blob/main/images/train_loss_batches.png)![val_loss_curve](https://github.com/87003697/colorful_image_colorization_pytorch/blob/main/images/val_loss_epoches.png)
-
+<figure class="half">
+    <img src="https://github.com/87003697/colorful_image_colorization_pytorch/blob/main/images/train_loss_batches.png">
+    <img src="https://github.com/87003697/colorful_image_colorization_pytorch/blob/main/images/val_loss_epoches.png">
+</figure>
 
 ### Demo
 Open **demo.ipynb**, choose either to inference with pre-saved model or your trained one.
