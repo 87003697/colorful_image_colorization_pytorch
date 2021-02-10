@@ -46,7 +46,7 @@ Due to time limit, at this moment the model is under training. According to [ori
 ### Demo
 Open **demo.ipynb**, choose either to inference with pre-saved model or your trained one.
 Examples
-![Image](https://github.com/87003697/colorful_image_colorization_pytorch/blob/main/images/demos.png)
+![image](https://github.com/87003697/colorful_image_colorization_pytorch/blob/main/images/demos.png)
 
  
 
