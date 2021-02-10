@@ -5,16 +5,19 @@
 
 ## Contribution
 * To my knowledge, it's the only implementation for both training and inference using pytorch
-* Model is trained on both [ImageNet](http://www.image-net.org/) and other dataset, including [Coco](https://cocodataset.org/#home).
+* Model can be trained on both [ImageNet](http://www.image-net.org/) and other dataset, including [Coco](https://cocodataset.org/#home).
 
 ## Usage
 ### Train
-Link to your dataset (imagenet or other) using
+Link to your dataset (ImageNet or other) using
 ```
 $ cd data
 $ ln -s <your_dataset_root> ./
 ```
-Specify your target dataset in **train.py**.
+Specify your target dataset in **train.py** [line 129 and line 130](https://github.com/87003697/colorful_image_colorization_pytorch/blob/66699bbd717ae2c894c260f5cc6ab58e4afcaac2/train.py#L129).
+You should be very careful about the dataset format. Specify either [ImageFolder](https://github.com/87003697/colorful_image_colorization_pytorch/blob/66699bbd717ae2c894c260f5cc6ab58e4afcaac2/train.py#L138) or [defined module](https://github.com/87003697/colorful_image_colorization_pytorch/blob/66699bbd717ae2c894c260f5cc6ab58e4afcaac2/train.py#L142) as your 'Dataset', then apply 'DataLoader'
+Then you can set off to training
+
 ```
 $ python train.py
 ```
