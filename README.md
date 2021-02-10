@@ -16,11 +16,14 @@ $ ln -s <your_dataset_root> ./
 ```
 Specify your target dataset in **train.py** [line 129 and line 130](https://github.com/87003697/colorful_image_colorization_pytorch/blob/66699bbd717ae2c894c260f5cc6ab58e4afcaac2/train.py#L129).
 You should be very careful about the dataset format. Use [defined module](https://github.com/87003697/colorful_image_colorization_pytorch/blob/66699bbd717ae2c894c260f5cc6ab58e4afcaac2/train.py#L142) as your `Dataset`, if your dataset is constructed like ⬇️
+```
 |-- root
     |-- image1.jpg
     |-- image2.jpg
     |-- ...
+```
 Otherwise specify[ImageFolder](https://github.com/87003697/colorful_image_colorization_pytorch/blob/66699bbd717ae2c894c260f5cc6ab58e4afcaac2/train.py#L138) if the format is like ⬇️ 
+```
 |-- root
     |-- folder1
         |-- image1.jpg
@@ -29,6 +32,7 @@ Otherwise specify[ImageFolder](https://github.com/87003697/colorful_image_colori
         |-- image1.jpg
         |-- image2.jpg
     |-- ...
+```
 Then you can set off to training
 
 ```
